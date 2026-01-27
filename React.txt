@@ -1,0 +1,19 @@
+
+            These are multiple Libraries 
+
+Library .
+-GSAP ( moving animation)
+-Lenis (Scrolling smoothness)
+-swiper ( sliders)
+-Three js (3D)
+
+
+
+---------------------React JS ---------------------
+
+
+IS for making UI  frontend ....
+
+REACT MADE BY  === FACEBOOK
+
+
