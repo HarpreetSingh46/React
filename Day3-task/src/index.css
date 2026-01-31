@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+}
+.flexbox {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;      
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+
+.app {
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  margin: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero {
+  padding: 20px 0;
+}
+
+.card h5 {
+  padding-left: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card h6 {
+  padding-left: 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  gap: 6px;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+.btn button {
+  background-color: rgba(255, 215, 250, 0.7);
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn button:hover {
+  background-color: rgba(255, 200, 245, 0.9);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.footer h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer .p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer > button {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.footer > button:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
