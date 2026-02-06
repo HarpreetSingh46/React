@@ -1,0 +1,4 @@
+1. LocalStorage.clear()- to  clean LocalStorage
+2. LocalStorage.setItem("key","value")-to add new item or overwrite  existing ones
+3. LocalStorage.getItem("key")-to get any item
+4. LocalStorage.removeItem("key")-to remove any item.
